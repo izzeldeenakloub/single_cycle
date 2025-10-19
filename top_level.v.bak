@@ -1,0 +1,35 @@
+module top_level(
+	input clk , rst,
+	output [9:0]pc
+);
+//module program_counter(
+//	input clk , rst
+//	input [31:0] in
+//	output reg [31:0] out
+//
+//);
+wire [9:0] pc;
+wire [31:0] instruction;
+program_counter pc(.clk(clk) , .rst(rst)
+	.in(in), .out(pc)
+);
+//module instruction_memory (
+//	address,
+//	clock,
+//	q);
+instruction_memory IM(
+	.address(pc),
+	.clock(clk),
+	.q(instruction)
+);
+//module Register_file(
+//    input  wire         clk,
+//    input  wire         reset,       // synchronous reset: clears all registers to 0
+//    input  wire         wen,         // write enable
+//    input  wire [4:0]   waddr,       // write address
+//    input  wire [31:0]  wdata,       // write data
+//    input  wire [4:0]   raddr1,      // read address port 1
+//    output wire [31:0]  rdata1,      // read data port 1
+//    input  wire [4:0]   raddr2,      // read address port 2
+//    output wire [31:0]  rdata2       // read data port 2
+//);

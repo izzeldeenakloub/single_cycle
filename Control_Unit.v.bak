@@ -1,0 +1,28 @@
+module Control_Unit(aluop, alusrc, pcsrc, memtoreg, regwrite ,memread, memwrite, branch, Iformat, LW, SW, BEQ, JAL, JALR, opcode, func3, func7);
+  input [6:0] opcode, func7; 
+  input [2:0] func3;
+  output [2:0] aluop;
+  output [1:0] memtoreg, pcsrc;
+  output alusrc, regwrite, memread, memwrite, branch, Iformat, LW, SW, BEQ, JAL, JALR;		
+  wire Rformat;
+  assign  Rformat = ~opcode[6] & opcode[5] & opcode[4];
+  assign  Iformat = ~opcode[6] & ~opcode[5] & opcode[4];
+  assign  LW      = ~opcode[6] & ~opcode[5] & ~opcode[4];
+  assign  SW      = ~opcode[6] & opcode[5] & ~opcode[4];
+  assign  JAL     =  opcode[6] & opcode[3] & opcode[2];
+  assign  JALR    =  opcode[6] & ~opcode[3] & opcode[2];
+  assign  BEQ     =  opcode[6] & ~opcode[2];
+  assign #2 branch = BEQ;
+  assign #2 memwrite = SW;
+  assign #2 memread = LW;
+  assign #4 regwrite = Rformat | Iformat | LW |JAL | JALR;
+  assign #4 memtoreg[1] = JAL | JALR;
+  assign #4 memtoreg[0] = LW;
+  assign #4 pcsrc[1] = JALR;
+  assign #4 pcsrc[0] = JAL;
+  assign #4 alusrc = Iformat | LW | SW | JAL | JALR;
+  assign #4 aluop[2] = (Rformat & (~func3[2]&func3[1] | func7[5])) | (Iformat & (~func3[2]&func3[1] ));
+  assign #4 aluop[1] = (Rformat & (func3[2]&~func3[1] | ~func3[2]&~func3[1]&~func3[0] | ~func3[2]&func3[1])) | (Iformat & (func3[2]&~func3[1] | ~func3[2]&~func3[1]&~func3[0] | ~func3[2]&func3[1])) | LW | SW | JALR;
+  assign #4 aluop[0] = (Rformat & (func3[2]&func3[1]&func3[0]  | ~func3[2]&~func3[1]&~func3[0])) | (Iformat & (func3[2]&func3[1]&func3[0] | ~func3[2]&~func3[1]&~func3[0])) | LW | SW | JALR;             
+
+endmodule
