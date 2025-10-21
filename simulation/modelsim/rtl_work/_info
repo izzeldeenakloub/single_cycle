@@ -1,0 +1,331 @@
+m255
+K4
+z2
+!s11f vlog 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/User/Desktop/single_cycle/simulation/modelsim
+vAdder
+Z1 !s110 1761014533
+!i10b 1
+!s100 o>UKA322c2n`Q;QhB>akK0
+Z2 !s11b Dg1SIo80bB@j0V0VzS_@n1
+I4d4:JjBS=CdKIz^A7:jnZ0
+Z3 VDg1SIo80bB@j0V0VzS_@n1
+R0
+Z4 w1760950547
+8C:/Users/User/Desktop/single_cycle/Adder.v
+FC:/Users/User/Desktop/single_cycle/Adder.v
+!i122 10
+L0 1 7
+Z5 OV;L;2020.1;71
+r1
+!s85 0
+31
+Z6 !s108 1761014533.000000
+!s107 C:/Users/User/Desktop/single_cycle/Adder.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/User/Desktop/single_cycle|C:/Users/User/Desktop/single_cycle/Adder.v|
+!i113 1
+Z7 o-vlog01compat -work work
+Z8 !s92 -vlog01compat -work work +incdir+C:/Users/User/Desktop/single_cycle
+Z9 tCvgOpt 0
+n@adder
+vALU
+R1
+!i10b 1
+!s100 oSI:4V9lU4cLY_ZQ4KUT72
+R2
+IQ77Yn]@dkhOB6e?FK>DO_1
+R3
+R0
+R4
+8C:/Users/User/Desktop/single_cycle/ALU.v
+FC:/Users/User/Desktop/single_cycle/ALU.v
+!i122 9
+L0 1 22
+R5
+r1
+!s85 0
+31
+R6
+!s107 C:/Users/User/Desktop/single_cycle/ALU.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/User/Desktop/single_cycle|C:/Users/User/Desktop/single_cycle/ALU.v|
+!i113 1
+R7
+R8
+R9
+n@a@l@u
+vComparator
+R1
+!i10b 1
+!s100 QWX=_eOPb]U01[4KnOf^43
+R2
+IE9HOa9=2mhPlk@cfdlZWh2
+R3
+R0
+R4
+8C:/Users/User/Desktop/single_cycle/Comparator.v
+FC:/Users/User/Desktop/single_cycle/Comparator.v
+!i122 6
+L0 1 12
+R5
+r1
+!s85 0
+31
+Z10 !s108 1761014532.000000
+!s107 C:/Users/User/Desktop/single_cycle/Comparator.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/User/Desktop/single_cycle|C:/Users/User/Desktop/single_cycle/Comparator.v|
+!i113 1
+R7
+R8
+R9
+n@comparator
+vControl_Unit
+Z11 !s110 1761014532
+!i10b 1
+!s100 ?4d6>aO<4;>7a8acO1G@a0
+R2
+InK@I=lz<I[5HGf]Y44blL0
+R3
+R0
+R4
+8C:/Users/User/Desktop/single_cycle/Control_Unit.v
+FC:/Users/User/Desktop/single_cycle/Control_Unit.v
+!i122 4
+L0 1 28
+R5
+r1
+!s85 0
+31
+R10
+!s107 C:/Users/User/Desktop/single_cycle/Control_Unit.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/User/Desktop/single_cycle|C:/Users/User/Desktop/single_cycle/Control_Unit.v|
+!i113 1
+R7
+R8
+R9
+n@control_@unit
+vinstruction_memory
+R11
+!i10b 1
+!s100 WDKHQW:jN^N?cRAN<<m7l1
+R2
+IcRUMKZPBG]JMaY:?WdFdS3
+R3
+R0
+R4
+8C:/Users/User/Desktop/single_cycle/instruction_memory.v
+FC:/Users/User/Desktop/single_cycle/instruction_memory.v
+!i122 1
+L0 40 61
+R5
+r1
+!s85 0
+31
+R10
+!s107 C:/Users/User/Desktop/single_cycle/instruction_memory.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/User/Desktop/single_cycle|C:/Users/User/Desktop/single_cycle/instruction_memory.v|
+!i113 1
+R7
+R8
+R9
+vmemory
+R1
+!i10b 1
+!s100 kWe_V8mMjNg_f8gJ`Qn[a0
+R2
+IXE^]FMM=@i`Aa3VcWn?1l1
+R3
+R0
+w1761011937
+8C:/Users/User/Desktop/single_cycle/memory.v
+FC:/Users/User/Desktop/single_cycle/memory.v
+!i122 11
+L0 40 69
+R5
+r1
+!s85 0
+31
+R6
+!s107 C:/Users/User/Desktop/single_cycle/memory.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/User/Desktop/single_cycle|C:/Users/User/Desktop/single_cycle/memory.v|
+!i113 1
+R7
+R8
+R9
+vMux_2_to_1
+R1
+!i10b 1
+!s100 S]0FJ<15Nj@XHD6OXOSlK3
+R2
+IV`Jh<ACjBFEXj:@PcLdAe3
+R3
+R0
+R4
+8C:/Users/User/Desktop/single_cycle/Mux_2_to_1.v
+FC:/Users/User/Desktop/single_cycle/Mux_2_to_1.v
+!i122 7
+L0 1 11
+R5
+r1
+!s85 0
+31
+R6
+!s107 C:/Users/User/Desktop/single_cycle/Mux_2_to_1.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/User/Desktop/single_cycle|C:/Users/User/Desktop/single_cycle/Mux_2_to_1.v|
+!i113 1
+R7
+R8
+R9
+n@mux_2_to_1
+vMux_3_to_1
+R1
+!i10b 1
+!s100 ZO9Xh<7bBeoRbOl352`0A1
+R2
+In3LdA7ZL5hO0]z8RM^@?^1
+R3
+R0
+R4
+8C:/Users/User/Desktop/single_cycle/Mux_3_to_1.v
+FC:/Users/User/Desktop/single_cycle/Mux_3_to_1.v
+!i122 8
+L0 1 13
+R5
+r1
+!s85 0
+31
+R6
+!s107 C:/Users/User/Desktop/single_cycle/Mux_3_to_1.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/User/Desktop/single_cycle|C:/Users/User/Desktop/single_cycle/Mux_3_to_1.v|
+!i113 1
+R7
+R8
+R9
+n@mux_3_to_1
+vprogram_counter
+!s110 1761014531
+!i10b 1
+!s100 mTUEQ;QaVSLW4<?^7BGd13
+R2
+I4HjfScLR01onn9;0ikE>K3
+R3
+R0
+w1761012282
+8C:/Users/User/Desktop/single_cycle/program_counter.v
+FC:/Users/User/Desktop/single_cycle/program_counter.v
+!i122 0
+L0 1 15
+R5
+r1
+!s85 0
+31
+!s108 1761014531.000000
+!s107 C:/Users/User/Desktop/single_cycle/program_counter.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/User/Desktop/single_cycle|C:/Users/User/Desktop/single_cycle/program_counter.v|
+!i113 1
+R7
+R8
+R9
+vRegister_file
+R11
+!i10b 1
+!s100 4fjdb]>g4MIPN^Dk552oB0
+R2
+Im4i@D`i4c17zHCK@FSgod2
+R3
+R0
+R4
+8C:/Users/User/Desktop/single_cycle/Register_file.v
+FC:/Users/User/Desktop/single_cycle/Register_file.v
+!i122 2
+L0 5 43
+R5
+r1
+!s85 0
+31
+R10
+!s107 C:/Users/User/Desktop/single_cycle/Register_file.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/User/Desktop/single_cycle|C:/Users/User/Desktop/single_cycle/Register_file.v|
+!i113 1
+R7
+R8
+R9
+n@register_file
+vSignExtend
+R11
+!i10b 1
+!s100 Zem?>P`8zLAjeiMJ::RK13
+R2
+I_J9N72kTf077TJ021DnXZ2
+R3
+R0
+w1761012577
+8C:/Users/User/Desktop/single_cycle/SignExtend.v
+FC:/Users/User/Desktop/single_cycle/SignExtend.v
+!i122 5
+L0 1 19
+R5
+r1
+!s85 0
+31
+R10
+!s107 C:/Users/User/Desktop/single_cycle/SignExtend.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/User/Desktop/single_cycle|C:/Users/User/Desktop/single_cycle/SignExtend.v|
+!i113 1
+R7
+R8
+R9
+n@sign@extend
+vtb_cpu
+R1
+!i10b 1
+!s100 X`5@o8B3hF<V<NNCj=abD3
+R2
+I@;Tj_i]5hMmAIF7>bGofX2
+R3
+R0
+w1761010673
+8C:/Users/User/Desktop/single_cycle/tb_cpu.v
+FC:/Users/User/Desktop/single_cycle/tb_cpu.v
+!i122 12
+L0 2 25
+R5
+r1
+!s85 0
+31
+R6
+!s107 C:/Users/User/Desktop/single_cycle/tb_cpu.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/User/Desktop/single_cycle|C:/Users/User/Desktop/single_cycle/tb_cpu.v|
+!i113 1
+R7
+R8
+R9
+vtop_level
+R11
+!i10b 1
+!s100 ON@=mfW1QD7PoXIR;8:bO2
+R2
+IGMlBk>R_cVVMfTA53Qm8a2
+R3
+R0
+w1761014491
+8C:/Users/User/Desktop/single_cycle/top_level.v
+FC:/Users/User/Desktop/single_cycle/top_level.v
+!i122 3
+L0 1 101
+R5
+r1
+!s85 0
+31
+R10
+!s107 C:/Users/User/Desktop/single_cycle/top_level.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/User/Desktop/single_cycle|C:/Users/User/Desktop/single_cycle/top_level.v|
+!i113 1
+R7
+R8
+R9

@@ -1,0 +1,16 @@
+module tb_cpu; 
+ reg clk, reset, enable; 
+ top_level p(clk, reset);
+
+ initial begin : stop_at 
+  #(100*19 ); $finish ;
+ end 
+
+ initial begin : init 
+  reset=1 ; clk =1;
+  #80 reset=0 ;
+ end
+ 
+ always #50 clk=~clk;
+endmodule 
+

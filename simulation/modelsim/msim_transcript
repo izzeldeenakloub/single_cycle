@@ -1,0 +1,257 @@
+# Reading pref.tcl
+# ERROR: No extended dataflow license exists
+# do single-cycle-machine_run_msim_rtl_verilog.do
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Model Technology ModelSim - Intel FPGA Edition vmap 2020.1 Lib Mapping Utility 2020.02 Feb 28 2020
+# vmap work rtl_work 
+# Copying C:/intelFPGA_lite/20.1/modelsim_ase/win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# 
+# vlog -vlog01compat -work work +incdir+C:/Users/User/Desktop/single_cycle {C:/Users/User/Desktop/single_cycle/program_counter.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 05:42:11 on Oct 21,2025
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/User/Desktop/single_cycle" C:/Users/User/Desktop/single_cycle/program_counter.v 
+# -- Compiling module program_counter
+# 
+# Top level modules:
+# 	program_counter
+# End time: 05:42:11 on Oct 21,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/User/Desktop/single_cycle {C:/Users/User/Desktop/single_cycle/instruction_memory.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 05:42:12 on Oct 21,2025
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/User/Desktop/single_cycle" C:/Users/User/Desktop/single_cycle/instruction_memory.v 
+# -- Compiling module instruction_memory
+# 
+# Top level modules:
+# 	instruction_memory
+# End time: 05:42:12 on Oct 21,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/User/Desktop/single_cycle {C:/Users/User/Desktop/single_cycle/Register_file.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 05:42:12 on Oct 21,2025
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/User/Desktop/single_cycle" C:/Users/User/Desktop/single_cycle/Register_file.v 
+# -- Compiling module Register_file
+# 
+# Top level modules:
+# 	Register_file
+# End time: 05:42:12 on Oct 21,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/User/Desktop/single_cycle {C:/Users/User/Desktop/single_cycle/top_level.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 05:42:12 on Oct 21,2025
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/User/Desktop/single_cycle" C:/Users/User/Desktop/single_cycle/top_level.v 
+# -- Compiling module top_level
+# 
+# Top level modules:
+# 	top_level
+# End time: 05:42:12 on Oct 21,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/User/Desktop/single_cycle {C:/Users/User/Desktop/single_cycle/Control_Unit.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 05:42:12 on Oct 21,2025
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/User/Desktop/single_cycle" C:/Users/User/Desktop/single_cycle/Control_Unit.v 
+# -- Compiling module Control_Unit
+# 
+# Top level modules:
+# 	Control_Unit
+# End time: 05:42:12 on Oct 21,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/User/Desktop/single_cycle {C:/Users/User/Desktop/single_cycle/SignExtend.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 05:42:12 on Oct 21,2025
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/User/Desktop/single_cycle" C:/Users/User/Desktop/single_cycle/SignExtend.v 
+# -- Compiling module SignExtend
+# 
+# Top level modules:
+# 	SignExtend
+# End time: 05:42:12 on Oct 21,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/User/Desktop/single_cycle {C:/Users/User/Desktop/single_cycle/Comparator.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 05:42:12 on Oct 21,2025
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/User/Desktop/single_cycle" C:/Users/User/Desktop/single_cycle/Comparator.v 
+# -- Compiling module Comparator
+# 
+# Top level modules:
+# 	Comparator
+# End time: 05:42:13 on Oct 21,2025, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/User/Desktop/single_cycle {C:/Users/User/Desktop/single_cycle/Mux_2_to_1.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 05:42:13 on Oct 21,2025
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/User/Desktop/single_cycle" C:/Users/User/Desktop/single_cycle/Mux_2_to_1.v 
+# -- Compiling module Mux_2_to_1
+# 
+# Top level modules:
+# 	Mux_2_to_1
+# End time: 05:42:13 on Oct 21,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/User/Desktop/single_cycle {C:/Users/User/Desktop/single_cycle/Mux_3_to_1.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 05:42:13 on Oct 21,2025
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/User/Desktop/single_cycle" C:/Users/User/Desktop/single_cycle/Mux_3_to_1.v 
+# -- Compiling module Mux_3_to_1
+# 
+# Top level modules:
+# 	Mux_3_to_1
+# End time: 05:42:13 on Oct 21,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/User/Desktop/single_cycle {C:/Users/User/Desktop/single_cycle/ALU.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 05:42:13 on Oct 21,2025
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/User/Desktop/single_cycle" C:/Users/User/Desktop/single_cycle/ALU.v 
+# -- Compiling module ALU
+# 
+# Top level modules:
+# 	ALU
+# End time: 05:42:13 on Oct 21,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/User/Desktop/single_cycle {C:/Users/User/Desktop/single_cycle/Adder.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 05:42:13 on Oct 21,2025
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/User/Desktop/single_cycle" C:/Users/User/Desktop/single_cycle/Adder.v 
+# -- Compiling module Adder
+# 
+# Top level modules:
+# 	Adder
+# End time: 05:42:13 on Oct 21,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/User/Desktop/single_cycle {C:/Users/User/Desktop/single_cycle/memory.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 05:42:13 on Oct 21,2025
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/User/Desktop/single_cycle" C:/Users/User/Desktop/single_cycle/memory.v 
+# -- Compiling module memory
+# 
+# Top level modules:
+# 	memory
+# End time: 05:42:13 on Oct 21,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vlog -vlog01compat -work work +incdir+C:/Users/User/Desktop/single_cycle {C:/Users/User/Desktop/single_cycle/tb_cpu.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 05:42:13 on Oct 21,2025
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/User/Desktop/single_cycle" C:/Users/User/Desktop/single_cycle/tb_cpu.v 
+# -- Compiling module tb_cpu
+# 
+# Top level modules:
+# 	tb_cpu
+# End time: 05:42:13 on Oct 21,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L fiftyfivenm_ver -L rtl_work -L work -voptargs="+acc"  tb_cpu
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L fiftyfivenm_ver -L rtl_work -L work -voptargs=""+acc"" tb_cpu 
+# Start time: 05:42:14 on Oct 21,2025
+# Loading work.tb_cpu
+# Loading work.top_level
+# Loading work.program_counter
+# Loading work.Adder
+# Loading work.instruction_memory
+# Loading altera_mf_ver.altsyncram
+# Loading work.Register_file
+# Loading work.Control_Unit
+# Loading work.SignExtend
+# Loading work.Comparator
+# Loading work.Mux_2_to_1
+# Loading work.ALU
+# Loading work.Mux_3_to_1
+# Loading work.memory
+# Loading altera_mf_ver.altsyncram_body
+# Loading altera_mf_ver.ALTERA_DEVICE_FAMILIES
+# Loading altera_mf_ver.ALTERA_MF_MEMORY_INITIALIZATION
+# ** Warning: (vsim-3015) [PCDPC] - Port size (10) does not match connection size (32) for port 'in'. The port definition is at: C:/Users/User/Desktop/single_cycle/program_counter.v(3).
+#    Time: 0 ps  Iteration: 0  Instance: /tb_cpu/p/pc1 File: C:/Users/User/Desktop/single_cycle/top_level.v Line: 27
+# ** Warning: (vsim-3015) [PCDPC] - Port size (5) does not match connection size (7) for port 'raddr1'. The port definition is at: C:/Users/User/Desktop/single_cycle/Register_file.v(11).
+#    Time: 0 ps  Iteration: 0  Instance: /tb_cpu/p/RF File: C:/Users/User/Desktop/single_cycle/top_level.v Line: 53
+# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (10) for port 'A'. The port definition is at: C:/Users/User/Desktop/single_cycle/Adder.v(2).
+#    Time: 0 ps  Iteration: 0  Instance: /tb_cpu/p/adder1 File: C:/Users/User/Desktop/single_cycle/top_level.v Line: 89
+# ** Warning: (vsim-3015) [PCDPC] - Port size (10) does not match connection size (12) for port 'address'. The port definition is at: C:/Users/User/Desktop/single_cycle/memory.v(41).
+#    Time: 0 ps  Iteration: 0  Instance: /tb_cpu/p/mem File: C:/Users/User/Desktop/single_cycle/top_level.v Line: 93
+# 
+# add wave *
+# view structure
+# .main_pane.structure.interior.cs.body.struct
+# view signals
+# .main_pane.objects.interior.cs.body.tree
+# run -all
+# ** Warning: (vsim-PLI-3412) Memory address read on line 2049 of file "memory_init_file.ver" is out of bounds specified for readmem command.  (Current address [1024], address range [0:1023])    : $MODEL_TECH/../altera/verilog/src/altera_mf.v(48977)
+#    Time: 0 ps  Iteration: 0  Instance: /tb_cpu/p/mem/altsyncram_component/m_default/altsyncram_inst
+#############  Autofindloop Analysis  ###############
+#############  Loop found at time 600 ns ###############
+#   Active process: /tb_cpu/p/M4/#IMPLICIT-WIRE(out)#100 @ sub-iteration 0
+#     Source: C:/Users/User/Desktop/single_cycle/top_level.v:100
+#   Active process: /tb_cpu/p/M1/#IMPLICIT-WIRE(out)#73 @ sub-iteration 1
+#     Source: C:/Users/User/Desktop/single_cycle/top_level.v:73
+#   Active process: /tb_cpu/p/alu/#IMPLICIT-WIRE(result)#82 @ sub-iteration 1
+#     Source: C:/Users/User/Desktop/single_cycle/top_level.v:82
+#   Active process: /tb_cpu/p/M4/#IMPLICIT-WIRE(out)#100 @ sub-iteration 2
+#     Source: C:/Users/User/Desktop/single_cycle/top_level.v:100
+################# END OF LOOP #################
+# ** Error (suppressible): (vsim-3601) Iteration limit 5000 reached at time 600 ns.
+add wave -position insertpoint sim:/tb_cpu/p/*
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# ** Warning: (vsim-3015) [PCDPC] - Port size (10) does not match connection size (32) for port 'in'. The port definition is at: C:/Users/User/Desktop/single_cycle/program_counter.v(3).
+#    Time: 0 ps  Iteration: 0  Instance: /tb_cpu/p/pc1 File: C:/Users/User/Desktop/single_cycle/top_level.v Line: 27
+# ** Warning: (vsim-3015) [PCDPC] - Port size (5) does not match connection size (7) for port 'raddr1'. The port definition is at: C:/Users/User/Desktop/single_cycle/Register_file.v(11).
+#    Time: 0 ps  Iteration: 0  Instance: /tb_cpu/p/RF File: C:/Users/User/Desktop/single_cycle/top_level.v Line: 53
+# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (10) for port 'A'. The port definition is at: C:/Users/User/Desktop/single_cycle/Adder.v(2).
+#    Time: 0 ps  Iteration: 0  Instance: /tb_cpu/p/adder1 File: C:/Users/User/Desktop/single_cycle/top_level.v Line: 89
+# ** Warning: (vsim-3015) [PCDPC] - Port size (10) does not match connection size (12) for port 'address'. The port definition is at: C:/Users/User/Desktop/single_cycle/memory.v(41).
+#    Time: 0 ps  Iteration: 0  Instance: /tb_cpu/p/mem File: C:/Users/User/Desktop/single_cycle/top_level.v Line: 93
+run -all
+# ** Warning: (vsim-PLI-3412) Memory address read on line 2049 of file "memory_init_file.ver" is out of bounds specified for readmem command.  (Current address [1024], address range [0:1023])    : $MODEL_TECH/../altera/verilog/src/altera_mf.v(48977)
+#    Time: 0 ps  Iteration: 0  Instance: /tb_cpu/p/mem/altsyncram_component/m_default/altsyncram_inst
+# ** Error (suppressible): (vsim-3601) Iteration limit 5000 reached at time 600 ns.
+run -continue
+# ** Error (suppressible): (vsim-3601) Iteration limit 5000 reached at time 600 ns.
+run -continue
+# ** Error (suppressible): (vsim-3601) Iteration limit 5000 reached at time 600 ns.
+run
+# ** Error (suppressible): (vsim-3601) Iteration limit 5000 reached at time 600 ns.
+run
+# ** Error (suppressible): (vsim-3601) Iteration limit 5000 reached at time 600 ns.
+run
+# ** Error (suppressible): (vsim-3601) Iteration limit 5000 reached at time 600 ns.
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# ** Warning: (vsim-3015) [PCDPC] - Port size (10) does not match connection size (32) for port 'in'. The port definition is at: C:/Users/User/Desktop/single_cycle/program_counter.v(3).
+#    Time: 0 ps  Iteration: 0  Instance: /tb_cpu/p/pc1 File: C:/Users/User/Desktop/single_cycle/top_level.v Line: 27
+# ** Warning: (vsim-3015) [PCDPC] - Port size (5) does not match connection size (7) for port 'raddr1'. The port definition is at: C:/Users/User/Desktop/single_cycle/Register_file.v(11).
+#    Time: 0 ps  Iteration: 0  Instance: /tb_cpu/p/RF File: C:/Users/User/Desktop/single_cycle/top_level.v Line: 53
+# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (10) for port 'A'. The port definition is at: C:/Users/User/Desktop/single_cycle/Adder.v(2).
+#    Time: 0 ps  Iteration: 0  Instance: /tb_cpu/p/adder1 File: C:/Users/User/Desktop/single_cycle/top_level.v Line: 89
+# ** Warning: (vsim-3015) [PCDPC] - Port size (10) does not match connection size (12) for port 'address'. The port definition is at: C:/Users/User/Desktop/single_cycle/memory.v(41).
+#    Time: 0 ps  Iteration: 0  Instance: /tb_cpu/p/mem File: C:/Users/User/Desktop/single_cycle/top_level.v Line: 93
+run -all
+# ** Warning: (vsim-PLI-3412) Memory address read on line 2049 of file "memory_init_file.ver" is out of bounds specified for readmem command.  (Current address [1024], address range [0:1023])    : $MODEL_TECH/../altera/verilog/src/altera_mf.v(48977)
+#    Time: 0 ps  Iteration: 0  Instance: /tb_cpu/p/mem/altsyncram_component/m_default/altsyncram_inst
+# ** Error (suppressible): (vsim-3601) Iteration limit 5000 reached at time 600 ns.
+run
+# ** Error (suppressible): (vsim-3601) Iteration limit 5000 reached at time 600 ns.
+run -continue
+# ** Error (suppressible): (vsim-3601) Iteration limit 5000 reached at time 600 ns.
+run -all
+# ** Error (suppressible): (vsim-3601) Iteration limit 5000 reached at time 600 ns.
+add wave -position insertpoint sim:/tb_cpu/p/*
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# ** Warning: (vsim-3015) [PCDPC] - Port size (10) does not match connection size (32) for port 'in'. The port definition is at: C:/Users/User/Desktop/single_cycle/program_counter.v(3).
+#    Time: 0 ps  Iteration: 0  Instance: /tb_cpu/p/pc1 File: C:/Users/User/Desktop/single_cycle/top_level.v Line: 27
+# ** Warning: (vsim-3015) [PCDPC] - Port size (5) does not match connection size (7) for port 'raddr1'. The port definition is at: C:/Users/User/Desktop/single_cycle/Register_file.v(11).
+#    Time: 0 ps  Iteration: 0  Instance: /tb_cpu/p/RF File: C:/Users/User/Desktop/single_cycle/top_level.v Line: 53
+# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (10) for port 'A'. The port definition is at: C:/Users/User/Desktop/single_cycle/Adder.v(2).
+#    Time: 0 ps  Iteration: 0  Instance: /tb_cpu/p/adder1 File: C:/Users/User/Desktop/single_cycle/top_level.v Line: 89
+# ** Warning: (vsim-3015) [PCDPC] - Port size (10) does not match connection size (12) for port 'address'. The port definition is at: C:/Users/User/Desktop/single_cycle/memory.v(41).
+#    Time: 0 ps  Iteration: 0  Instance: /tb_cpu/p/mem File: C:/Users/User/Desktop/single_cycle/top_level.v Line: 93
+run
+# ** Warning: (vsim-PLI-3412) Memory address read on line 2049 of file "memory_init_file.ver" is out of bounds specified for readmem command.  (Current address [1024], address range [0:1023])    : $MODEL_TECH/../altera/verilog/src/altera_mf.v(48977)
+#    Time: 0 ps  Iteration: 0  Instance: /tb_cpu/p/mem/altsyncram_component/m_default/altsyncram_inst
+run -all
+# ** Error (suppressible): (vsim-3601) Iteration limit 5000 reached at time 600 ns.
+# End time: 05:49:59 on Oct 21,2025, Elapsed time: 0:07:45
+# Errors: 1, Warnings: 5
